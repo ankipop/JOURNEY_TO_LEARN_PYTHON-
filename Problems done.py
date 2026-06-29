@@ -16,3 +16,16 @@ elif(l=="yellow"):
     print("look and wait")
 else:
     print("wrong light")
+
+#3.WRITE A PROGRAM TO GRADE STUDENTS
+m=int(input("type marks obtained: "))
+if(m>=90 and m<=100):
+    print("A")
+elif(m>=80 and m<90):
+    print("B")
+elif(m>=70 and m<80):
+    print("C")    
+elif(m<70 and m>=0):
+    print("D")    
+else:
+    print("Not Funny")
