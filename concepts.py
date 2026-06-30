@@ -18,3 +18,8 @@ else:
 food=input("write the food name: ")
 eat= "yes" if food=="cake" else "no"    
 print(eat)
+
+#<Str1> if <condition> else <Str2>
+
+food=input("food name: ")
+print("sweet") if food=="cake" or food =="jalebi" else print("not sweet") 
