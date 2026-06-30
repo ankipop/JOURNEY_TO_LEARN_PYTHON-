@@ -29,3 +29,11 @@ elif(m<70 and m>=0):
     print("D")    
 else:
     print("Not Funny")
+
+
+#WRITE A PROGRAM TO CHECK IF A NUMBER IS EVEN OR ODD
+num=int(input("type a number: "))
+if num%2==0:
+    print("even")
+else:
+     print("odd")
