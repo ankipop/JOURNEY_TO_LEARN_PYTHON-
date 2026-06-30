@@ -31,9 +31,18 @@ else:
     print("Not Funny")
 
 
-#WRITE A PROGRAM TO CHECK IF A NUMBER IS EVEN OR ODD
+#4.WRITE A PROGRAM TO CHECK IF A NUMBER IS EVEN OR ODD
 num=int(input("type a number: "))
 if num%2==0:
     print("even")
 else:
      print("odd")
+
+#5.PROGRAM TO CLASSIFY USER TO AGE BASED CATEGORIES 
+age=int(input("type age:"))
+if age>0 and age <=13:
+    print("child")
+elif age > 13 and age <= 18:
+    print("teenager")
+else:
+    print("adult")
